@@ -1,0 +1,47 @@
+body {
+    min-height: 100vh;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    background-image: url(bg_question.png);
+    background-repeat:repeat;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.puzzle {
+    text-align: center;
+}
+
+.puzzle1 {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    grid-template-rows: auto;
+
+}
+
+.puzzleSpace {
+    border: 3px solid black;
+    background-color: grey;
+}
+
+.puzzleSpaceCorrect {
+    border: 3px solid black;
+    background-color: limegreen;
+}
+
+.puzzleSpaceWrong {
+    border: 3px solid black;
+    background-color: red;
+}
+
+span {
+    border-radius: 30px;
+    background: #73AD21;
+    padding: 8px;
+}
